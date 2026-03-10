@@ -1,0 +1,32 @@
+/* ToggleBtnCssComp.css */
+
+.toggle-container {
+  display: inline-flex;
+  background-color: #333; 
+  border-radius: 30px;    
+ padding: 4px !important; 
+  box-sizing: border-box;        
+  align-items: center;
+}
+
+
+.toggle-option {
+  padding: 8px 24px;
+  border-radius: 25px;   
+  font-weight: 600;
+  color: #888;         
+  cursor: pointer;
+  transition: all 0.3s ease;     
+}
+
+
+.toggle-option:not(.active):hover {
+  color: #bbb;
+}
+
+
+.toggle-option.active {
+  background-color: #555;
+  color: #fff;           
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /
+}
