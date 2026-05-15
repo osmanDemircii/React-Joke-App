@@ -17,13 +17,13 @@ function App() {
   const texts = {
     TR: {
       btnName: "Yeni Şaka Üret",
-      loading: "⏳ Hazırlanıyor...",
+      loading: "⏳ Hazırlanıyor....",
       type1: "Tek",
       type2: "Çift"
     },
     ENG: {
       btnName: "Generate New Joke",
-      loading: "⏳ Loading...",
+      loading: "⏳ Loading....",
       type1: "Single",
       type2: "Double"
     }
